@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factor-Risk Parity Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-statistics@7.7.0/dist/simple-statistics.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@1.1.2/lib/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#yield-allocation">Yield</a></li>
+                    <li><a href="#alpha-factors">Factor</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section id="yield-allocation">
+                <h2>Assets</h2>
+                <div class="charts-container">
+                    <div id="yield-chart" class="chart">
+                        <h3>Yield Over Time</h3>
+                        <svg id="yield-over-time"></svg>
+                    </div>
+                    <div id="allocation-chart" class="chart">
+                        <h3>Allocation Over Time</h3>
+                        <svg id="allocation-over-time"></svg>
+                    </div>
+                </div>
+                <!-- Exposure Matrix -->
+                <div class="matrix">
+                    <h3>Exposure Matrix</h3>
+                    <table id="exposure-matrix">
+                        <thead>
+                          <tr>
+                            <th>Asset</th>
+                            <th>Factor Growth</th>
+                            <th>Factor Inflation</th>
+                            <th>Factor Credit</th>
+                            <th>Factor Interest</th>
+                            <th>Factor Exchange</th>
+                            <th>Factor Interest A</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- Rows will be dynamically populated -->
+                        </tbody>
+                      </table>
+                </div>
+            </section>
+
+            <!-- Third Section: Alpha Factors -->
+            <section id="alpha-factors">
+                <div class="matrix-container">
+                    <div id="asset-covariance">
+                        <h3>Asset Correlation Matrix</h3>
+                        <table id="asset-covariance-matrix">
+                          <thead>
+                            <tr>
+                              <th>Asset</th>
+                              <th>Asset 1</th>
+                              <th>Asset 2</th>
+                              <th>Asset 3</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <!-- Rows will be dynamically populated -->
+                          </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Correlation Matrix -->
+                    <div class="matrix">
+                        <h3>Factor Correlation Matrix</h3>
+                        <table id="factor-covariance-matrix">
+                            <thead>
+                                <tr>
+                                    <th>Factor</th>
+                                    <th>Factor 1</th>
+                                    <th>Factor 2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Factor 1</td>
+                                    <td>0.02</td>
+                                    <td>0.01</td>
+                                </tr>
+                                <tr>
+                                    <td>Factor 2</td>
+                                    <td>0.01</td>
+                                    <td>0.03</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
