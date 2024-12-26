@@ -40,8 +40,8 @@ https://www.youtube.com/watch?v=1pOkVJSxbNI&t=2s
 4. Open your web browser and visit `http://localhost:8000` to view the interactive visualization of your results.
 
 ## Notes
-- The system currently uses CSV files for data storage and processing.
-- Future updates may include API integration for automated real-time data retrieval.
+- The system currently uses an API with Excel or CSV files for data storage and processing.
+- Future updates may include automated real-time data retrieval in the background.
 - Ensure all dependencies are installed before running the Python scripts. Dependencies include libraries like `Pandas`, `Numpy`, and `Scikit-learn`.
 
 
