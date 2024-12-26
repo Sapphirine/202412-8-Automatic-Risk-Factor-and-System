@@ -5,11 +5,16 @@
 ## Overview
 This project showcases a factor-based risk parity model that combines Python and web technologies for data analysis and visualization. The system automatically adjusts asset allocation ratios in response to market volatility, achieving dynamic portfolio optimization. Currently, the system supports experimental analysis using data manually obtained from platforms like Yahoo Finance and Wind.
 
+## Youtube URL
+```bash
+https://www.youtube.com/watch?v=1pOkVJSxbNI&t=2s
+```
+
 ## Workflow
 
 ### Step 1: Data Preparation
-1. Manually download the required data from platforms such as Yahoo Finance or Wind.
-2. Save the downloaded data into the `Risk_Factor_Model_Data` folder.
+1. Use API with Excel or manually download the required data from platforms such as Yahoo Finance or Wind.
+2. Save the Excel files from API or downloaded data in the Risk_Factor_Model_Data folder.
 
 ### Step 2: Code Execution
 1. Open the `Risk_Factor_Model_Code` folder.
@@ -38,3 +43,5 @@ This project showcases a factor-based risk parity model that combines Python and
 - The system currently uses CSV files for data storage and processing.
 - Future updates may include API integration for automated real-time data retrieval.
 - Ensure all dependencies are installed before running the Python scripts. Dependencies include libraries like `Pandas`, `Numpy`, and `Scikit-learn`.
+
+
