@@ -1,6 +1,4 @@
-# Automatic_Risk_Factor_and_System
-
-# Model Using Instructions
+# Automatic_Updated_Risk_Factor_Model_and_Related_System
 
 ## Overview
 This project showcases a factor-based risk parity model that combines Python and web technologies for data analysis and visualization. The system automatically adjusts asset allocation ratios in response to market volatility, achieving dynamic portfolio optimization. Currently, the system supports experimental analysis using data manually obtained from platforms like Yahoo Finance and Wind.
