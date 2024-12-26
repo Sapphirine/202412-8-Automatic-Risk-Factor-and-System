@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=1pOkVJSxbNI&t=2s
 
 ## Notes
 - The system currently uses an API with Excel or CSV files for data storage and processing.
-- Future updates may include automated real-time data retrieval in the background.
+- Future updates may include data retrieval in the background.
 - Ensure all dependencies are installed before running the Python scripts. Dependencies include libraries like `Pandas`, `Numpy`, and `Scikit-learn`.
 
 
