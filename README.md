@@ -8,6 +8,11 @@ This project showcases a factor-based risk parity model that combines Python and
 https://www.youtube.com/watch?v=1pOkVJSxbNI&t=2s
 ```
 
+## Final Report URL
+```bash
+https://www.graphen.ai/course/bigdata/reports/202412-8.pdf
+```
+
 ## Workflow
 
 ### Step 1: Data Preparation
